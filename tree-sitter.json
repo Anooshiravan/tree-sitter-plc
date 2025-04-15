@@ -1,0 +1,32 @@
+{
+  "grammars": [
+    {
+      "name": "plc",
+      "camelcase": "PLC",
+      "scope": "source.plc",
+      "path": ".",
+      "file-types": [
+        "plc",
+        "seq"
+      ],
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A tree-sitter grammar for PLC (IEC 61131-3)",
+    "authors": [
+      {
+        "name": "Anooshiravan Ahmadi"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/Anooshiravan/tree-sitter-plc"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "python": true
+  }
+}
