@@ -3,10 +3,10 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tree-sitter-structured-text"
-description = "StructuredText grammar for tree-sitter"
+name = "tree-sitter-plc"
+description = "Tree-sitter grammar for PLC (IEC 61131-3)"
 version = "0.0.1"
-keywords = ["incremental", "parsing", "tree-sitter", "structured-text"]
+keywords = ["incremental", "parsing", "tree-sitter", "plc", "iec61131-3"]
 classifiers = [
   "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
@@ -19,7 +19,7 @@ license.text = "MIT"
 readme = "README.md"
 
 [project.urls]
-Homepage = "https://github.com/tree-sitter/tree-sitter-structured-text"
+Homepage = "https://github.com/tree-sitter/tree-sitter-plc"
 
 [project.optional-dependencies]
 core = ["tree-sitter~=0.21"]
