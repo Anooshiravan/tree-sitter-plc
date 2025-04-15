@@ -1,4 +1,4 @@
-"StructuredText grammar for tree-sitter"
+"Plc grammar for tree-sitter"
 
 from ._binding import language
 

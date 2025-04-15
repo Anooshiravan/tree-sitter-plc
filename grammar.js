@@ -9,7 +9,7 @@ const signedInteger = seq(
 );
 
 module.exports = grammar({
-  name: 'structured_text',
+  name: 'plc',
   
   extras: $ => [
     $.inline_comment,

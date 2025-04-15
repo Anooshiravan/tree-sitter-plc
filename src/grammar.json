@@ -1,5 +1,5 @@
 {
-  "name": "structured_text",
+  "name": "plc",
   "word": "identifier",
   "rules": {
     "source_file": {

@@ -1,6 +1,6 @@
 VERSION := 0.0.1
 
-LANGUAGE_NAME := tree-sitter-structured_text
+LANGUAGE_NAME := tree-sitter-plc
 
 # repository
 SRC_DIR := src
